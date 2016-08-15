@@ -75,7 +75,7 @@
 
 							function getAnimationPrefix() {
 								var elm = document.body || document.createElement('div');
-								var domPrefixes = ['webkit', 'moz','O','ms','Khtml'];
+								var domPrefixes = ['webkit', 'Moz','O','ms','Khtml'];
 
 								for (var i = 0; i < domPrefixes.length; i++) {
 									if (elm.style[domPrefixes[i] + 'AnimationName'] !== undefined) {
